@@ -51,7 +51,31 @@
          super (gear, speed);
          seatHeight = startHeight;
     	
-// now  MountainMotorcycle subclass has one constructor *MountainMotorcycle(int gear,int speed, int startHeight)		            	
+// now  MountainMotorcycle subclass has one constructor *MountainMotorcycle(int gear,int speed, int startHeight)	
+
+
+public class Pilot {
+	
+	private Object MotorCycle;
+	{
+	   // instance variables
+	   String name;
+	   String age;
+	   
+
+	   
+	   public Pilot (String initmotrCycle, String initage, String age ) {
+	   {
+	       Object name = MotorCycle ;
+	    Object age =  initage;
+	     
+	   }
+	   }
+	
+
+
+
+
 	            	           
 	            	
          
