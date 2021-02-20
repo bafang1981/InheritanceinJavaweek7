@@ -1,0 +1,61 @@
+	// base class here is MotorCycle
+	class MotorCycle {
+	    // here I can said that MotorCycle  class has two fields
+	  public int color;
+	    public int speed;
+		public int gear;
+	    
+	    // the MotorCycle class has one constructor to initialize Color and speed
+	    
+	 
+	    
+	    public MotorCycle (int gear, int speed, int color)
+	    {
+	        this.gear = gear;
+	        this.speed = speed;
+	        this.color = color;  }
+	    
+	        
+	        
+	        
+	        //the MotorCycle class has two methods
+	        
+	        public void applyBrake(int decrement) 
+	        {
+	        	speed -= decrement;
+	        	
+	        public void speedUp(int increment)
+	        {
+	            speed += increment; 
+	            	
+	            	
+	            
+	            
+	            	        
+
+  public class Bicycle {
+
+	
+	 // Bicycle derived/subclass class *MountainMotorcycle
+    
+    class MountainBike extends Bicycle {
+    	
+    	   //the MountainMotorcycle subclass adds one more field *int seatHeight* which represents the minimum height
+    //	at which this bike becomes more efficient. 
+    	
+    	
+    	 public int seatHeight;
+		private Object gear; {
+    	 
+    	// invoking base-class(Bicycle) constructor
+         super (gear, speed);
+         seatHeight = startHeight;
+    	
+// now  MountainMotorcycle subclass has one constructor *MountainMotorcycle(int gear,int speed, int startHeight)		            	
+	            	           
+	            	
+         
+         
+         
+	            }
+	            }
